@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hedelmäpeli</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+		<div>
+		<table align="center">
+			<h1>Hedelmäpeli</h1>
+			
+			
+			<tr id="reels"> 
+			
+			<td class="rulla"><img src="IMG/seven.png" alt="Slot Image #1" style="Width:102px; Height:132px;"></td>
+			<td class="rulla"><img src="IMG/seven.png" alt="Slot Image #2" style="Width:102px; Height:132px;"></td>
+			<td class="rulla"><img src="IMG/seven.png" alt="Slot Image #2" style="Width:102px; Height:132px;"></td>
+			<td class="rulla"><img src="IMG/seven.png" alt="Slot Image #2" style="Width:102px; Height:132px;"></td>
+
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="button" onclick="DoSpin()" value="Pyöritä" id="start"></td>
+				<td></td>
+			</tr>
+		
+			<tr>
+				<td>Rahat:</td>
+				<td><input type="text" style="width: 100px" id="money" name="money" value="100"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Panos:</td>
+				<td><input type="text" style="width: 100px" id="bet" name="bet" value="1"></td>
+				<td></td>
+			</tr>
+			<div>
+				<p id="viesti"></p>
+			</div>
+	
+		</table>
+		
+	</div>
+		<script src="script.js"></script>
+	</Body>
+</Html>
